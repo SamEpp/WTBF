@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/SamEpp/BookLocationPlotter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welcome to Book Location Plotter
+###**Team InterWEBS**: Gracey Wilson, Sam Eppinger, Sarah Barden, Rowan Sharman
+Have you ever wondered where your favorite book takes place? What about where the author of the book is from? How do those two things relate to where the publisher of the ook is located? Well this software is for you. All that is needed is a book's barcode which we will scan into our program and output a map with all the information you've been missing for so long.
 
 ### Markdown
 
