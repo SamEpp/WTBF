@@ -13,11 +13,13 @@ Within the first few weeks of work, we determined a general code structure with 
 
 In the beginning stages of work, our most arduous struggles involved text mining these locations from Wikipedia. Documentation of Wikipedia's API is sparse and often unhelpful, which resulted in a long process of exploration, trial and error in order to build the structures we needed. We wrote over 100 lines of code that ended up being simplified down to 3.
 
-<img src="/pictures/mess1.png">
+![mess1](/pictures/mess1.png)
 
 **Figure 1: A snapshot/screenshot in time when we were in the midst of our "exploratory" approach to Wikipedia text mining.**
 
 Once we figured out the first stage of text mining, we progressed onward toward our next challenge: integrating the code different teammates had worked on individually. This in itself turned out to be fairly straightforward. However, through testing a variety of ISBN codes, we ran into a diversity of Wikipedia-related errors we weren't expecting that hadn't appeared when building the Wikipedia in isolation. Through an intensive debugging process, we determined that we had misread the Wikipedia API and one of the 3 lines of code we had at the base of our program was wrong. Below is a picture of the incorrect code, and correct code. The difference is, one calls the summary of a newly searched Wikipedia page, while the corrected code calls the summary of book's Wikipedia page.
+
+**Figure 2: A screenshot of our working & not working code and results. As seen, one outputs the summary for "Kites", while the working one outputs the summary for "The Kite Runner".**
 
 ### Cleaning it up...
 After writing a working script that takes an ISBN as input and returns a map with the book's locations plotted on it, our next step was to handle all common errors in a way such that the code continued running when it couldn't find one of the locations, and at least returned the information it did find. Once the errors were handled, our next goal became reducing the number of times the text mining failed and produced the message we had just created: "Location was not found on Wikipedia."
