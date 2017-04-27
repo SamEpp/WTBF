@@ -6,6 +6,7 @@ At the start of this journey, we had only two things: a desire to work with maps
 
 In the beginning stages of work, our main struggles involved the Wikipedia API. Documentation was sparse and often unhelpful, which caused our building of the structures we needed to be a long exploratory process. We wrote over 100 lines of code that ended up being simplified down to 3.
 
-![alt text](https://github.com/graceyw/BookLocationPlotters/blob/master/pictures/mess#1.png "")
+
+![alt text](https://github.com/SamEpp/BookLocationPlotter/blob/master/pictures/mess%231.png "")
 
 Wikipedia and Plotly were our greatest struggles
