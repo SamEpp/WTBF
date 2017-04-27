@@ -19,7 +19,7 @@ You will need to download these libraries in python:
 2. When prompted use a barcode scanner on the book or enter an isbn number.
 3. A map with the book's locations will appear! At the top of the page there will be information
 
-### Code Structure
+## Code Structure
 ![alt text](https://github.com/SamEpp/BookLocationPlotter/blob/master/Code_structure.PNG "")
 
 #### Scan a book and use isbnlib
