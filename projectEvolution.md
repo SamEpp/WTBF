@@ -4,12 +4,10 @@ layout: template
 filename: projectEvolution
 ---
 
-## YO TEAM! INPUT/EDITS APPRECIATED! CHANGE ANYTHING YOU DON'T AGREE WITH, ESPECIALLY IN THE REVISITING LEARNING GOALS SECTION.
-
 # Project Evolution
 
 ### The beginning of the journey...
-At the start of the project, we had only three things: a desire to work with maps and visualization, a barcode scanner, and a curiosity about where things come from. The original project idea was an interactive visualization of global commerce that taught a user about the origin of the materials that make up different products. As we further defined our learning goals and our sense of scope, this idea evolved into what it is today.
+At the start of the project, we had only three things: a desire to work with maps and visualization, a barcode scanner, and a curiosity about where things come from. The original project idea was an interactive visualization of global commerce that taught a user about the origin of the materials that make up different products. As we further defined our learning goals and our sense of scope, this idea evolved into our "Where's That Book From" program you see before you today.
 
 Within the first few weeks of work, we determined a general code structure with the class "Book" at its center. A book object contains information about a book, most of which is included in the data that belongs to an ISBN code (such as the title, author and year a book was published) but some of which we needed to find for ourselves (specifically, the locations of the author, publisher and plot). We chose to text mine from Wikipedia to obtain these locations, which half the team tackled while others worked with Python's Plotly library to plot the locations once we found them, and developing the classBook.
 
@@ -19,8 +17,7 @@ In the beginning stages of work, our most arduous struggles involved text mining
 
 **Figure 1: A snapshot/screenshot in time when we were in the midst of our "exploratory" approach to Wikipedia text mining.**
 
-Once we figured out the first stage of text mining, we progressed onward toward our next challenge: integrating the code different teammates had worked on individually. This in itself turned out to be fairly straightforward. However, through testing a variety of ISBN codes, we ran into a diversity of Wikipedia-related errors we weren't expecting that hadn't appeared when building the Wikipedia in isolation. Through an intensive debugging process, we determined that
-## SAM IS A BOSS AND I NEED HER TO TELL ME EXACTLY WHAT SHE FIXED. PREFERABLY WITH EXAMPLE CODE. THANKS BAE
+Once we figured out the first stage of text mining, we progressed onward toward our next challenge: integrating the code different teammates had worked on individually. This in itself turned out to be fairly straightforward. However, through testing a variety of ISBN codes, we ran into a diversity of Wikipedia-related errors we weren't expecting that hadn't appeared when building the Wikipedia in isolation. Through an intensive debugging process, we determined that we had misread the Wikipedia API and one of the 3 lines of code we had at the base of our program was wrong. Below is a picture of the incorrect code, and correct code. The difference is, one calls the summary of a 
 
 ### Cleaning it up...
 After writing a working script that takes an ISBN as input and returns a map with the book's locations plotted on it, our next step was to handle all common errors in a way such that the code continued running when it couldn't find one of the locations, and at least returned the information it did find. Once the errors were handled, our next goal became reducing the number of times the text mining failed and produced the message we had just created: "Location was not found on Wikipedia."
