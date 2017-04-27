@@ -6,15 +6,17 @@ filename: implementation
 # Code Structure
 <img src="/pictures/Code_structure.PNG">
 
-### Scan a book and use isbnlib
-Get book’s title, author, publisher, etc. 
-Make them attributes of a Book object
+### Scan a book and get basic info
+The library isbnlib takes an ISBN entered manually or with a barcode scanner and looks up some basic information such as title, author, publisher, language, and publication year.
 
-### That info + text mining from wikipedia = locations:
-Publisher headquarters 
-Author's birthplace
-Where the book takes place
-Make this information attributes of the Book object
+### Look up information on Wikipedia
+Next, the program uses the Wikipedia library to find the book page and publisher page and download the HTML.
+
+Author location is found by searching the HTML of the book's page, and publisher location is pulled from the publisher's page
+
+Another library called inidicoio searches through the book page for information that looks like locations. It returns its confidence in all of the places it finds, and the highest-confidence location becomes the plot location.
+
+All of these attributes are then written to the Book object.
 
 ### Plot the locations in a plotly choropleth map
 
