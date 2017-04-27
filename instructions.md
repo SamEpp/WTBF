@@ -20,7 +20,7 @@ You will need to install these Python libraries:
 
 # Code Structure
 hello
-<img src="/pictures/Code_structure.PNG">
+<img src="https://github.com/SamEpp/BookLocationPlotter/blob/master/pictures/Code_structure.PNG">
 
 ### Scan a book and use isbnlib
 Get book’s title, author, publisher, etc. 
