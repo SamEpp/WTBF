@@ -9,13 +9,13 @@ filename: projectEvolution
 # Project Evolution
 
 ### The beginning of the journey...
-At the start of the project, we had only two things: a desire to work with maps and visualization, and a curiosity about where things come from. The original project idea was an interactive visualization of global commerce that taught a user about the origin of the materials that make up different products. As we further defined our learning goals and our sense of scope, this idea evolved into what it is today.
+At the start of the project, we had only three things: a desire to work with maps and visualization, a barcode scanner, and a curiosity about where things come from. The original project idea was an interactive visualization of global commerce that taught a user about the origin of the materials that make up different products. As we further defined our learning goals and our sense of scope, this idea evolved into what it is today.
 
 Within the first few weeks of work, we determined a general code structure with the class "Book" at its center. A book object contains information about a book, most of which is included in the data that belongs to an ISBN code (such as the title, author and year a book was published) but some of which we needed to find for ourselves (specifically, the locations of the author, publisher and plot). We chose to text mine from Wikipedia to obtain these locations, which half the team tackled while others worked with Python's Plotly library to plot the locations once we found them, and developing the classBook.
 
 In the beginning stages of work, our most arduous struggles involved text mining these locations from Wikipedia. Documentation of Wikipedia's API is sparse and often unhelpful, which resulted in a long process of exploration, trial and error in order to build the structures we needed. We wrote over 100 lines of code that ended up being simplified down to 3.
 
-![mess of code](https://github.com/SamEpp/BookLocationPlotter/blob/master/pictures/mess1.png "")
+![mess of code](pictures/mess1.png "")
 
 **Figure 1: A snapshot/screenshot in time when we were in the midst of our "exploratory" approach to Wikipedia text mining.**
 
