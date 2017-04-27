@@ -4,7 +4,7 @@ layout: template
 filename: instructions
 ---
 
-## How to use our project
+# How to use our project
 
 ### Libraries to Download
 You will need to download these libraries in python:
@@ -19,16 +19,18 @@ You will need to download these libraries in python:
 2. When prompted use a barcode scanner on the book or enter an isbn number.
 3. A map with the book's locations will appear! At the top of the page there will be information
 
-## Code Structure
+# Code Structure
 ![alt text](https://github.com/SamEpp/BookLocationPlotter/blob/master/Code_structure.PNG "")
 
-#### Scan a book and use isbnlib
+### Scan a book and use isbnlib
 Get book’s title, author, publisher, etc. 
 Make them attributes of a book object
 
-#### That info + text mining from wikipedia = locations:
+### That info + text mining from wikipedia = locations:
 Publisher headquarters 
 Author's birthplace
 Where the book takes place
 
-#### Plot the locations in a plotly choropleth map
+### Plot the locations in a plotly choropleth map
+
+# Results
