@@ -19,8 +19,6 @@ In the beginning stages of work, our most arduous struggles involved text mining
 
 Once we figured out the first stage of text mining, we progressed onward toward our next challenge: integrating the code different teammates had worked on individually. This in itself turned out to be fairly straightforward. However, through testing a variety of ISBN codes, we ran into a diversity of Wikipedia-related errors we weren't expecting that hadn't appeared when building the Wikipedia in isolation. Through an intensive debugging process, we determined that we had misread the Wikipedia API and one of the 3 lines of code we had at the base of our program was wrong. Below is a picture of the incorrect code, and correct code. The difference is, one calls the summary of a newly searched Wikipedia page, while the corrected code calls the summary of book's Wikipedia page.
 
-
-hello?
 ![code_wrong_example](/pictures/code_wrong_examples.png)
 
 **Figure 2: A screenshot of our working & not working code and results. As seen, one outputs the summary for "Kites", while the working one outputs the summary for "The Kite Runner".**
