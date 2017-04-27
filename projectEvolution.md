@@ -15,7 +15,7 @@ Within the first few weeks of work, we determined a general code structure with 
 
 In the beginning stages of work, our most arduous struggles involved text mining these locations from Wikipedia. Documentation of Wikipedia's API is sparse and often unhelpful, which resulted in a long process of exploration, trial and error in order to build the structures we needed. We wrote over 100 lines of code that ended up being simplified down to 3.
 
-![mess of code](pictures/mess1.png "")
+<img src="https://github.com/SamEpp/BookLocationPlotter/blob/master/pictures/mess1.png")
 
 **Figure 1: A snapshot/screenshot in time when we were in the midst of our "exploratory" approach to Wikipedia text mining.**
 
