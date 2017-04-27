@@ -1,12 +1,14 @@
+---
 title: Project Evolution
 layout: template
 filename: projectEvolution
+---
 
 ## YO TEAM! INPUT/EDITS APPRECIATED! CHANGE ANYTHING YOU DON'T AGREE WITH, ESPECIALLY IN THE REVISITING LEARNING GOALS SECTION.
 
 # Project Evolution
 
-### The beginning of this journey...
+### The beginning of the journey...
 At the start of the project, we had only two things: a desire to work with maps and visualization, and a curiosity about where things come from. The original project idea was an interactive visualization of global commerce that taught a user about the origin of the materials that make up different products. As we further defined our learning goals and our sense of scope, this idea evolved into what it is today.
 
 Within the first few weeks of work, we determined a general code structure with the class "Book" at its center. A book object contains information about a book, most of which is included in the data that belongs to an ISBN code (such as the title, author and year a book was published) but some of which we needed to find for ourselves (specifically, the locations of the author, publisher and plot). We chose to text mine from Wikipedia to obtain these locations, which half the team tackled while others worked with Python's Plotly library to plot the locations once we found them, and developing the classBook.
