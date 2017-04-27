@@ -22,15 +22,13 @@ You will need to download these libraries in python:
 ### Code Structure
 ![alt text](https://github.com/SamEpp/BookLocationPlotter/blob/master/Code_structure.PNG "")
 
-#### Our Code is structured into 3 main parts
-
-##### Scan a book and use isbnlib
+#### Scan a book and use isbnlib
 Get book’s title, author, publisher, etc. 
 Make them attributes of a book object
 
-##### That info + text mining from wikipedia = locations:
+#### That info + text mining from wikipedia = locations:
 Publisher headquarters 
 Author's birthplace
 Where the book takes place
 
-##### Plot the locations in a plotly choropleth map
+#### Plot the locations in a plotly choropleth map
