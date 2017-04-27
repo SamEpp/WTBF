@@ -19,8 +19,8 @@ You will need to install these Python libraries:
 2. Follow instructions to choose input method and enter book title or scan ISBN.
 
 # Code Structure
-hello2
-<img src="/BookLocationPlotter/blob/master/pictures/Code_structure.PNG">
+hello3
+<img src="/pictures/Code_structure.PNG">
 
 ### Scan a book and use isbnlib
 Get book’s title, author, publisher, etc. 
