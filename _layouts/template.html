@@ -16,7 +16,7 @@
 
         <section id="downloads">
           {% for page in site.pages %}
-            <a class="button" href= {{ page.filename }}>{{ page.title }}</a>
+            <a class="btn" href= {{ page.filename }}>{{ page.title }}</a>
           {% endfor %}
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
