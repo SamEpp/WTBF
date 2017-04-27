@@ -15,4 +15,5 @@ In the beginning stages of work, our main struggles involved the Wikipedia API. 
 
 ![mess of code](https://github.com/SamEpp/BookLocationPlotter/blob/master/pictures/mess1.png "")
 
+<img src="https://raw.githubusercontent.com/samepp/BookLocationPlotter/master/pictures/mess1.png" alt ="mess of code" />
 Wikipedia and Plotly were our greatest struggles
