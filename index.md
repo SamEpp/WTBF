@@ -13,8 +13,16 @@ Scan or enter the ISBN code of any book, and our program will present you with a
 
 ## Authors
 ### Team interWEBS:
-<a href="https://github.com/graceyw">Gracey Wilson</a><br>: Gracey is a first-year student at Olin College of Engineering. Software Design is the first programming class she's ever taken and she's excited to continue exploring her newfound skills!
-<a href="https://github.com/samEpp">Sam Eppinger</a><br>: Sam is a first-year student at Olin College of Engineering
-<a href="https://github.com/srbarden">Sarah Barden</a><br>: Sarah is a 4+1 student from Wellesley College who is simoultaneously working towards two bachelor's degrees: one in mathematics from Wellesley and one in engineering from Olin.
-<a href="https://github.com/rowansharman">Rowan Sharman</a><br>: Rowan is a first-year student at Olin College of Engineering 
-Please see the Project Evolution page for more information on our personal learning goals!
+<a href="https://github.com/graceyw">Gracey Wilson</a><br>
+Gracey is a first-year student at Olin College of Engineering. Software Design is the first programming class she's ever taken and she's excited to continue exploring her newfound skills!
+
+<a href="https://github.com/samEpp">Sam Eppinger</a><br>
+Sam is a first-year student at Olin College of Engineering
+
+<a href="https://github.com/srbarden">Sarah Barden</a><br>
+Sarah is a 4+1 student from Wellesley College who is simoultaneously working towards two bachelor's degrees: one in mathematics from Wellesley and one in engineering from Olin.
+
+<a href="https://github.com/rowansharman">Rowan Sharman</a><br>
+Rowan is a first-year student at Olin College of Engineering 
+
+### Please see the Project Evolution page for more information on our personal learning goals for this project!
