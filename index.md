@@ -11,8 +11,7 @@ Have you ever wondered where your favorite book takes place? How about where the
 
 Scan or enter the ISBN code of any book, and our program will present you with a map highlighting where the story takes place, where the other is from, and where the book was published. Check it out!
 
-## Authors
-### Team interWEBS:
+## Authors: the interWEBS
 <a href="https://github.com/graceyw">Gracey Wilson</a><br>
 Gracey is a first-year student at Olin College of Engineering. Software Design is the first programming class she's ever taken and she's excited to continue exploring her newfound skills!
 
