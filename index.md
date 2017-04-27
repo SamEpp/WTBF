@@ -1,7 +1,7 @@
 ---
-title: home
+title: index
 layout: template
-filename: home
+filename: index
 ---
 # Book Location Plotter
 This is our homepage
