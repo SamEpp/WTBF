@@ -19,7 +19,6 @@ You will need to install these Python libraries:
 2. Follow instructions to choose input method and enter book title or scan ISBN.
 
 # Code Structure
-hello4
 ![Code_structure](/pictures/Code_structure.PNG)
 
 ### Scan a book and use isbnlib
