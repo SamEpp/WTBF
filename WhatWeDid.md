@@ -18,6 +18,3 @@ All of these locations are then written to the Book object as attributes.
 
 ### 3) Plot the locations on a map.
 Finally, the locations associated with the ISBN code originally entered, are plotted on a map using a library called Folium.
-
-# Results
-Our software finds the book associated with the ISBN entered, looks up the associated locations on Wikipedia, and generates a map with the locations highlighted.
