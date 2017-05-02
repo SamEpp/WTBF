@@ -4,9 +4,9 @@ layout: template
 filename: implementation
 ---
 # Code Structure
-![codestructure](/pictures/codestructure.PNG)
+![codestructure](/pictures/codestructure.png)
 either picture
-<img src="/pictures/codestructure.PNG">
+<img src="/pictures/codestructure.png">
 
 ### 1) Scan a book and get basic info.
 The library isbnlib takes an ISBN entered manually or with a barcode scanner and looks up some basic information such as title, author, publisher, language, and publication year.
