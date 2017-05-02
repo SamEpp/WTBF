@@ -4,7 +4,7 @@ layout: template
 filename: instructions
 ---
 
-# How to use our it
+# How to use it
 
 ### Libraries to Download
 You will need to install these Python libraries:
