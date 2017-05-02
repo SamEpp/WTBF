@@ -9,13 +9,6 @@ Have you ever wondered where your favorite book takes place? How about where the
 
 Scan or enter the ISBN code of any book, and our program will present you with a map highlighting where the story takes place, where the other is from, and where the book was published. Check it out!
 
-### Software Design Spring 2017
-### Final Project
-
-Have you ever wondered where your favorite book takes place? How about where the author is from, or where the book was published? Then our software, "Where's That Book From" (WTBF), is for you!
-
-Scan or enter the ISBN code of any book, and our program will present you with a map highlighting where the story takes place, where the other is from, and where the book was published. Check it out!
-
 ## Authors: the interWEBS
 <a href="https://github.com/graceyw">Gracey Wilson</a><br>
 Gracey is a student at Olin College of Engineering who is passionate about solving problems that elevate people's lives. Software Design is the first programming class she's ever taken and she's excited to continue exploring her newfound skills!
