@@ -31,8 +31,7 @@ Rowan is a student at Olin College of Engineering and is especially interested i
 
 ### Please see the Project Evolution page for more information on our personal learning goals for this project!
 
-#####{one line to give the program's name and a brief idea of what it does.}
-    Copyright (C) {year}  {name of author}
+##### Copyright (C) {2017} {by interWEBS}
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
