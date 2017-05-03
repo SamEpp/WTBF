@@ -14,6 +14,7 @@ You will need to install these Python libraries:
 - folium
 - indicoio (create an account and paste your key into a file "key.py")
 - opencage (create an account and paste your key into a file "key.py")
+
 key.py should look like this:
 indicoio_key = 'your key'
 geo_key = 'your key'
