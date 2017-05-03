@@ -21,4 +21,8 @@ You will need to install these Python libraries:
 3. Navigate to the directory where the python files are stored, and open map.html in a browser
 
 ### Results
-After entering the book information, the program searches an ISBN database (if applicable) and Wikipedia for more information. The information found is displayed in the terminal, and whatever locations found are saved to an HTML file which displays the locations on a map when opened with a browser. An example is shown below. 
+After entering the book information, the program searches an ISBN database (if applicable) and Wikipedia for more information. The information found is displayed in the terminal, and whatever locations found are saved to an HTML file which displays the locations on a map when opened with a browser. An example is shown below.
+
+### Example: Jane Eyre
+![Jane Eyre](/pictures/janeeyre.png)
+![Jane Eyre gif](/pictures/janeeyre.gif)
