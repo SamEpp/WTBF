@@ -14,12 +14,16 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
+        
         <section id="downloads">
-          {% for page in site.pages %}
-            <a href = "{{ page.filename }}" >{{ page.title }}</a>
-          {% endfor %}
-          <a href="{{ site.github.repository_url }}">View on GitHub</a>
-        </section>
+          <div class="container">
+              <a href="/index.md">Home</a>       
+              <a href="/HowItWorks.md">How It Works</a>
+              <a href="/instructions.md">How To Use It</a>
+              <a href="/projectEvolution.md">Project Evolution</a>
+            <a href="{{ site.github.repository_url }}">View on GitHub</a>
+          </div>
+        </section> 
       </div>
     </header>
 
