@@ -1,2 +1,0 @@
-indico_key = 'b5007564230e20cc247479cc3298ccb1'
-geo_key = '199b8a524b7e524e310b2d610dfa37ec'
