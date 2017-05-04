@@ -4,7 +4,7 @@ the Author, Plot and Publisher.'''
 
 import folium   # library for data visualization on maps
 from opencage.geocoder import OpenCageGeocode  # geocoding service
-from key import geokey
+from key import geo_key
 from time import sleep
 
 
