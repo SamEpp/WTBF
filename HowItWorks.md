@@ -1,7 +1,7 @@
 ---
-title: Implementation
+title: How It Works
 layout: template
-filename: WhatWeDid
+filename: HowItWorks
 ---
 # Code Structure
 ![codestructure](/pictures/codestructure.png)
