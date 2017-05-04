@@ -2,6 +2,8 @@
 ### **Team InterWEBS**: Gracey Wilson, Sam Eppinger, Sarah Barden, Rowan Sharman
 Have you ever wondered where your favorite book takes place? What about where the author of the book is from? How do those two things relate to where the publisher of the book is located? Then, this software is for you. All that is needed is a book's barcode (the isbn) which we will scan into our program and output a map with all the locations you've been missing for so long.
 
+Our old repo: https://github.com/graceyw/SoftDesFinalProject
+
 ## How to use it
 
 ### Libraries to Download
@@ -28,5 +30,4 @@ geo_key = 'your key'
 Jane Eyre (isbn: 9780679886181)
 ![Jane Eyre gif](/pictures/janeeyre.gif)
 
-[Visit our website!](https://samepp.github.io/WTBF)
 
