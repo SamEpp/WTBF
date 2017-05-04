@@ -36,13 +36,13 @@ class Book:
             self.title = ''
 
         # Create all attributes that will be used
-        self.author = 'x'
-        self.publisher = 'x'
-        self.year = 'x'
-        self.language = 'x'
-        self.authorLoc = 'x'
-        self.publisherLoc = 'x'
-        self.plotLoc = 'x'
+        self.author = ''
+        self.publisher = ''
+        self.year = ''
+        self.language = ''
+        self.authorLoc = ''
+        self.publisherLoc = ''
+        self.plotLoc = ''
 
     def getInfo(self):
         '''
