@@ -24,7 +24,7 @@ def geocode(place):
     else:
         longitude = location[0]['geometry']['lng']  # lat/long are within a nested
         latitude = location[0]["geometry"]["lat"]   # results dictionary under geometry
-        print(latitude, longitude)
+        # print(latitude, longitude)
         return [latitude, longitude]
 
 
