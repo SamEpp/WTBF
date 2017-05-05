@@ -11,15 +11,17 @@
 
     <header>
       <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
+        <h1>Where's That Book From?</h1>
         
         <section id="downloads">
-          {% for page in site.pages %}
-            <a href = "{{ page.filename }}" >{{ page.title }}</a>
-          {% endfor %}
-          <a href="{{ site.github.repository_url }}">View on GitHub</a>
+           <div class="container">
+             <a href="/WTBF/index">Home</a>       
+             <a href="/WTBF/HowItWorks">How It Works</a>
+             <a href="/WTBF/instructions">How To Use It</a>
+             <a href="/WTBF/projectEvolution">Project Evolution</a>
+             <br>
+             <a href="{{ site.github.repository_url }}">View on GitHub</a>
+           </div>
         </section>
       </div>
     </header>
