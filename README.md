@@ -3,6 +3,7 @@
 Have you ever wondered where your favorite book takes place? What about where the author of the book is from? How do those two things relate to where the publisher of the book is located? Then, this software is for you. All that is needed is a book's barcode (the isbn) which we will scan into our program and output a map with all the locations you've been missing for so long.
 
 Our old repo with our progress along the way (this repo has the website and all our final, working code): https://github.com/graceyw/SoftDesFinalProject
+
 The poster we used at our demo session: https://github.com/SamEpp/WTBF/blob/master/poster.pdf
 
 ## How to use it
