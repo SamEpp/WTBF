@@ -16,15 +16,11 @@
 
         
         <section id="downloads">
-          <div class="container">
-            <a href="/index">Home</a>       
-            <a href="/HowItWorks">How It Works</a>
-            <a href="/instructions">How To Use It</a>
-            <a href="/projectEvolution">Project Evolution</a>
-            <br>
-            <a href="{{ site.github.repository_url }}">View on GitHub</a>
-          </div>
-        </section> 
+          {% for page in site.pages %}
+            <a href = "{{ page.filename }}" >{{ page.title }}</a>
+          {% endfor %}
+          <a href="{{ site.github.repository_url }}">View on GitHub</a>
+        </section>
       </div>
     </header>
 
